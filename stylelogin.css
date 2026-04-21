@@ -34,10 +34,12 @@ body {
     margin-bottom: 20px;
     color: #000;
     text-shadow: 0 #000;
-    position: relative;
+    position: absolute;
         z-index: 2;
-        bottom: 100%;
-    
+        top: 28%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
 }
 .gambarutama {
      position: absolute; /* Wajib ada */
@@ -47,7 +49,7 @@ body {
 
 .gambarbayangan {
     position: absolute;
-        top: -300px;
+        z-index: 1;        
 }
 
 
