@@ -45,6 +45,11 @@ body {
         bottom: -1%;
 }
 
+.gambarbayangan {
+    position: absolute;
+        top: -300px;
+}
+
 
 /* Card Utama */
 .login-card {
