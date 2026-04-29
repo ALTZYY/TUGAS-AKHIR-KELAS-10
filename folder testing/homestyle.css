@@ -1,0 +1,12 @@
+.Header1 {
+    width: auto;
+    height: 100px;
+    background-color: rgba(108, 68, 44, 1);
+    display: flex;
+    justify-content: space-between ;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 0.8rem;
+    align-items: center;
+    color: rgba(255, 251, 238, 1);
+}
