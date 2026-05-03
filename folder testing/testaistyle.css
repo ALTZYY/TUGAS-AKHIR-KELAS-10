@@ -1,0 +1,19 @@
+.navbar {
+  display: flex; /* Mengaktifkan mode flexbox */
+  justify-content: space-between; /* Mendorong satu grup ke kiri, satu ke kanan */
+  align-items: center; /* Membuat semua elemen sejajar di tengah secara vertikal */
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.nav-left, .nav-right {
+  display: flex; /* Membuat isi di dalam grup juga berderet ke samping */
+  align-items: center;
+  gap: 20px; /* Memberikan jarak antar elemen di dalam grup (misal: antara logo dan keranjang) */
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
